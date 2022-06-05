@@ -1,0 +1,17 @@
+#SingleInstance 
+!s::Suspend
+
+#IfWinActive The Messenger
+
+x::Ctrl
+c::+y
+a::!Left 
+
+//Linea 1, 2, y 4 no se borran bajo ninguna circunstancia 
+//Las lineas que puedes editar son 6, 7, y 8
+//Sin embargo, no puedes borrar ::Ctrl(Linea 6), ::+y(Linea 7) y ::!Left(Linea 8)
+//Lo que puedes editar a tu gusto es: x(Linea 6), c(Linea 7) y a(Linea 8). Esas las puedes cambiar por cualquier letra que desees.
+
+//x = Ataque
+//c = Shurikens
+//a = Atras/Salir
